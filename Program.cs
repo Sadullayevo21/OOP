@@ -11,7 +11,7 @@ nexia.Drive(200);
 nexia.Refuel(15);
 nexia.ShowInfo();
 
-Console.WriteLine("\n----------------------");
+Console.WriteLine("\n-----------------------");
 
 Car tesla = new Car 
 { 

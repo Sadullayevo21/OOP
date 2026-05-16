@@ -31,7 +31,7 @@ namespace Transport.Models
         {
             FuelLevel += amount;
             if (FuelLevel > 100) FuelLevel = 100;
-            Console.WriteLine($"{amount}% yoqilg'i qo'shildi");
+            Console.WriteLine($"{amount}% yoqilg'i qo'shildi!");
         }
     }
 }
