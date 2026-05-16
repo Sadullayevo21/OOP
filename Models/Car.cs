@@ -19,7 +19,7 @@ namespace Transport.Models
             if (FuelLevel >= needed)
             {
                 FuelLevel -= needed;
-                Console.WriteLine($"{distance} km yo'l bosildi. -{needed}% yoqilg'i.");
+                Console.WriteLine($"{distance} km yo'l bosildi. -{needed}% yoqilg'i");
             }
             else
             {
