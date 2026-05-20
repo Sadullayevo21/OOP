@@ -21,4 +21,4 @@ Bu loyiha C# OOP asosida yozilgan `Car` klassidan iborat. Mashina tezligi, yoqil
 
 ## Ishlash jarayoni
 
-![Gif](/OOP/assets/oop.gif)
+![Gif](assets/oop.gif)

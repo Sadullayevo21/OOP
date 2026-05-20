@@ -62,7 +62,7 @@ namespace Transport.Models
             {
                 if(FuelLevel == 0)
                 {
-                    Console.WriteLine("Yoqilg'i tugagan! Manzilni o'zgartirib bo'lmaydi.");
+                    Console.WriteLine("Yoqilg'i tugagan!");
                 }
                 else
                 {
