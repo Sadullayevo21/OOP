@@ -1,25 +1,21 @@
-﻿using Transport.Models;
+﻿using Models;
 
-Car nexia = new Car();
+// SavingsAccount testlari
+SavingsAccount savings = new SavingsAccount("Ali", 1000);
 
-nexia.Brand = "Chevrolet";
-nexia.Model = "Nexia 3";
-nexia.Year = 2019;
+savings.ShowBalance();
+Console.WriteLine();
 
-nexia.FuelLevel = 20;
+savings.Deposit(500);
+Console.WriteLine();
 
-nexia.Speed = 50;
-nexia.IncreaseSpeed(30);
-nexia.DecreaseSpeed(20);
+savings.Withdraw(300);
+Console.WriteLine();
 
-nexia.Destination = "Toshkent";
-nexia.ShowInfo();
+savings.Withdraw(2000);
+Console.WriteLine();
 
-nexia.Drive(200);
+// C
+CreditAccount credit = new CreditAccount("Vali", 0);
 
-nexia.Destination = "Samarqand";
-nexia.ShowInfo();
-
-nexia.Refuel(50);
-nexia.Destination = "Samarqand";
-nexia.ShowInfo();
+credit.Withdraw(6000);
